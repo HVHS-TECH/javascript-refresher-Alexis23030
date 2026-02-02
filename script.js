@@ -9,9 +9,6 @@ function myFunction() {
 }
 
 const textinp = document.getElementById("form");
-console.log(textinp)
-element.addEventListener("click", myFunction);
-
-function myFunction() {
-  alert("Congratulations!\nYou got the script running.");
-}
+console.log(textinp);
+textstuff = document.getElementById("textinp").value;
+console.log(textstuff);
